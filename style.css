@@ -9,7 +9,7 @@ ul {
 }
 a {
   text-decoration: none;
-  color:  #f9faf8;
+  color: #f9faf8;
 }
 body {
   height: 100vh;
@@ -31,20 +31,20 @@ body>div {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: 16px;
+  gap: 24px;
   flex-wrap: wrap;
 }
 
 .card-img {
   width: 150px;
   height: 150px;
-  border: 2px solid lightslategray;
-  border-radius: 5px;
+  /* Maintain aspect ratio */
+  object-fit: cover;
+  border-radius: 10px;
 }
 .card {
   text-align: center;
-  border: 2px solid brown;
-  flex: 0 0 150px;
+  flex-basis: 150px;
   margin: 16px;
 }
 .cards-container {
@@ -55,4 +55,16 @@ body>div {
 .footer {
   background-color: #1f2937;
   color: #f9faf8;
+}
+.hero-text {
+  flex: 1;
+  min-width: 350px;
+}
+.hero-img {
+  border-radius: 10px;
+  flex: 1;
+  min-width: 400px;
+  height: 300px;
+  /* Maintain aspect ratio */
+  object-fit: cover;
 }
