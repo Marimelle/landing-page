@@ -9,12 +9,17 @@ ul {
 }
 a {
   text-decoration: none;
+  color:  #f9faf8;
 }
 body {
   height: 100vh;
-  padding: 16px 15vw;
+  padding: 0;
+  margin: 0;
 }
-
+body>div {
+  margin: 0;
+  padding: 24px 15vw;
+}
 /* Horizontal Flexboxes */
 .header,
 .nav-links,
@@ -44,4 +49,10 @@ body {
 }
 .cards-container {
   justify-content: center;
+}
+.header,
+.hero-container,
+.footer {
+  background-color: #1f2937;
+  color: #f9faf8;
 }
