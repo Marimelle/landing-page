@@ -12,7 +12,7 @@ a {
 }
 body {
   height: 100vh;
-  padding: 16px 72px;
+  padding: 16px 15vw;
 }
 
 /* Horizontal Flexboxes */
@@ -28,4 +28,20 @@ body {
   align-items: center;
   gap: 16px;
   flex-wrap: wrap;
+}
+
+.card-img {
+  width: 150px;
+  height: 150px;
+  border: 2px solid lightslategray;
+  border-radius: 5px;
+}
+.card {
+  text-align: center;
+  border: 2px solid brown;
+  flex: 0 0 150px;
+  margin: 16px;
+}
+.cards-container {
+  justify-content: center;
 }
