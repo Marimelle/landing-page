@@ -34,6 +34,10 @@ body>div {
   gap: 24px;
   flex-wrap: wrap;
 }
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
 
 .card-img {
   width: 150px;
@@ -69,4 +73,20 @@ body>div {
   height: 280px;
   /* Maintain aspect ratio */
   object-fit: cover;
+}
+.hero-container {
+  padding: 40px 15vw 60px;
+}
+/* Hero title */
+h1 {
+  font-size: 48px;
+  line-height: 54px;
+  font-weight: 900;
+  margin: 0 0 12px 0;
+}
+/* Hero subtext */
+.hero-text>p {
+  margin: 0 0 12px 0;
+  font-size: 18px;
+  line-height: 24px;
 }
