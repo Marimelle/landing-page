@@ -51,6 +51,7 @@ body>div {
   text-align: center;
   flex-basis: 150px;
   margin: 16px;
+  color: rgb(82, 82, 82);
 }
 .cards-container {
   justify-content: center;
@@ -100,4 +101,11 @@ h1 {
   border: none;
   border-radius: 7px;
   margin-bottom: 16px;
+}
+h2.information {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  margin-bottom: 20px;
+  text-align: center;
 }
