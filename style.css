@@ -109,3 +109,19 @@ h2.information {
   margin-bottom: 20px;
   text-align: center;
 }
+.quote-container {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  padding: 60px 20vw;
+}
+.quote {
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  margin-bottom: 8px;
+}
+.author {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+}
