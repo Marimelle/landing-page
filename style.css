@@ -15,7 +15,7 @@ a {
   color: #f9faf8;
 }
 body>div {
-  padding: 60px 10vw;
+  padding: 80px 10vw;
 }
 .header,
 .footer {
@@ -76,9 +76,6 @@ body>div {
   /* Maintain aspect ratio */
   object-fit: cover;
 }
-.hero-container {
-  padding: 60px 10vw 80px;
-}
 /* Hero title */
 h1 {
   font-size: 48px;
@@ -112,7 +109,7 @@ h2.information {
 .quote-container {
   background-color: #e5e7eb;
   color: #1f2937;
-  padding: 60px 20vw;
+  padding: 80px 20vw;
 }
 .quote {
   font-size: 36px;
@@ -124,4 +121,16 @@ h2.information {
   font-size: 24px;
   font-weight: bold;
   text-align: right;
+}
+.cta-container {
+  background-color: #3882f6;
+  margin: 100px 10vw;
+  padding: 44px 10vw;
+  border-radius: 10px;
+  color: white;
+}
+.cta-heading {
+  font-size: 24px;
+  margin-bottom: 4px;
+  font-weight: bold;
 }
