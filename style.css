@@ -17,8 +17,7 @@ a {
 body>div {
   padding: 80px 10vw;
 }
-.header,
-.footer {
+.header {
   padding: 20px 10vw;
 }
 /* Horizontal Flexboxes */
@@ -142,4 +141,8 @@ h2.information {
   padding: 8px 36px;
   font-size: 18px;
   font-weight: bold;
+}
+.footer {
+  justify-content: center;
+  padding: 36px 10vw;
 }
